@@ -15,11 +15,12 @@
     'prefix': '_rcd'
     'body': """
       import React, { Component, PropTypes } from 'react';
-
-      ${1:MyComponent}.propTypes = {
+      
+      /* *** Props ***  */
+      const propTypes = {
       };
 
-      ${1:MyComponent}.defaultProps = {
+      const defaultProps = {
       };
 
       class ${1:MyComponent} extends Component {
